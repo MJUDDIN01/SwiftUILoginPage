@@ -11,7 +11,8 @@ import SwiftUI
 struct AppInSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // Mark: Initial view
+            LoginView()
         }
     }
 }
